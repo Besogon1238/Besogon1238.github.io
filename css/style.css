@@ -4,7 +4,10 @@ button:active, button:focus {
 button::-moz-focus-inner {
     border: 0;
 }
-
+body
+{
+    overflow-x: hidden;
+}
 button {
     padding: 0;
     border: none;
@@ -426,8 +429,8 @@ details > summary {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: calc(13px + 27 * (100vw / 1440));
-    line-height: calc(13px + 27 * (100vw / 1440));
+    font-size: calc(13px + 16 * (100vw / 1440));
+    line-height: calc(13    px + 16 * (100vw / 1440));
     text-align: left;
     position: relative;
     cursor: pointer;
@@ -439,7 +442,7 @@ details > summary {
     content: '+';
     position: absolute;
     top: 50%;
-    right: 20px;
+    right: 2%;
     transform: translateY(-50%);
 }
 
@@ -516,12 +519,13 @@ details > summary {
 .footer{
     padding-top: 2vh;
     width: 100%;
-    background-color: #FFFFFF;
-    padding-bottom: 2vh;
+    background-color: black;
+
 }
 
 .footerContainer{
     height: 100%;
+    background-color: white;
 
 }
 
@@ -548,8 +552,9 @@ details > summary {
 
 
 .socialMediaBlock{
-    margin: 5%;
+    margin: 3% 5% 0 5%;
     text-align: center;
+    padding-bottom:3%;
 }
 
 .icon{

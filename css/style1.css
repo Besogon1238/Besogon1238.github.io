@@ -271,7 +271,7 @@ button {
 .interviews{
     background-color: black;
     height: 100%;
-    padding-bottom:118px;
+
 }
 
 .interviewRow{
@@ -491,8 +491,17 @@ height: 150px;
         display: none;
     }
 
+    .interviews
+    {
+    background-color:white;
+    }
+
     .slider{
         display: block;
+    }
+    .detailsTitleInterview
+    {
+    margin-bottom:3vh;
     }
 
     .cardDir{
