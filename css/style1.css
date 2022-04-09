@@ -1,0 +1,567 @@
+button:active, button:focus {
+    outline: none;
+}
+button::-moz-focus-inner {
+    border: 0;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    /* отображаем курсор в виде руки при наведении; некоторые
+    считают, что необходимо оставлять стрелочный вид для кнопок */
+    cursor: pointer;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+
+
+.BlueSelection{
+    color: #5286F8;
+}
+
+.whiteText{
+    color: #FFFFFF;
+}
+
+
+
+
+
+.sectionTitle{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(20px + 35 * (100vw / 1440));
+    line-height: calc(20px + 35 * (100vw / 1440));
+
+}
+
+
+
+
+
+
+/*introSubPages sections*/
+
+
+
+.introSubPages{
+    height: 100%;
+    background-color: black;
+}
+
+.navBar{
+    width: 100%;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid black;
+    height: 100%;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    algin-items: center;
+    position: relative;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+.navRow{
+    margin-top: auto;
+    vertical-align: middle;
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.arrowBlock{
+    height: 100%;
+    display: block;
+
+
+
+}
+
+.arrowBack{
+
+}
+
+.navTextCol{
+    padding-top: 0px;
+}
+
+.navText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+
+    font-size: calc(25px + 23 * (100vw / 1440));
+    line-height: calc(25px + 23 * (100vw / 1440));
+    text-align: center;
+    color: #000000;
+    vertical-align: middle;
+    margin-bottom: 0;
+
+    font-size: calc(20px + 20 * (100vw / 1440));
+    line-height: calc(20px + 20 * (100vw / 1440));
+
+}
+
+
+.introSubPagesBlock{
+    padding: 0 3% 0 3%;
+    height: 100%;
+    background-color: #FFFFFF;
+    padding-bottom: 10vh;
+}
+
+.introSubPagesText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 10vh;
+    font-size: calc(25px + 20 * (100vw / 1440));
+    line-height: calc(25px + 20 * (100vw / 1440));
+}
+
+.introSubPagesSecondText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(25px + 15 * (100vw / 1440));
+    line-height: calc(20px + 15 * (100vw / 1440));
+    margin-top: 10vh;
+    color: #A2A2A2;
+}
+
+/*intro SubPages section end*/
+
+/*DetailsSubPages*/
+
+.detailsSubPages{
+    padding-top: 10vh;
+    height: 100%;
+    background-color: black;
+    padding-bottom: 10vh;
+}
+
+.detailCon{
+    background-color: black;
+    height: 100%;
+    padding: 0 3% 0 3%;
+
+}
+
+.detailMain{
+    margin-top: 5vh;
+
+}
+
+.detailsTitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(25px + 25 * (100vw / 1440));
+    line-height: calc(25px + 25 * (100vw / 1440));
+    color: #FFFFFF;
+}
+
+.rowTitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(10px + 15 * (100vw / 1440));
+    line-height: calc(10px + 15 * (100vw / 1440));
+
+    color: #FFFFFF;
+}
+
+.verticalLineBlock{
+    justify-content: center;
+
+}
+
+.circle{
+    background:white;
+    margin:0 auto;
+    border-radius:50%;
+    width: calc(13px + 15 * (100vw / 1440));
+    height: calc(13px + 15 * (100vw / 1440));
+}
+
+.verticalLine{
+    position:relative;
+    height:100%;
+    border: 2px solid white;
+    margin: 0 auto;
+}
+
+ .lineBlock{
+    align-items: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin:auto;
+ }
+
+.rowBody{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(10px + 15 * (100vw / 1440));
+    line-height: calc(10px + 15 * (100vw / 1440));
+    margin-left: 1%;
+    color: #FFFFFF;
+    padding-left: 4vw;
+    padding-bottom: 4vh;
+}
+
+.noLine{
+    border: none;
+}
+
+/*DetailsSubPages section end*/
+
+
+/*questionsToStudents section*/
+
+/*Блок - копипаст introsubpages (самого верхнего)*/
+
+.interview{
+    height: 100%;
+    background-color: black;
+}
+
+.interviewBlock{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left:3%;
+    padding-right:3%;
+    height: 100%;
+    background-color: #FFFFFF;
+    padding-bottom: 10vh;
+}
+
+.SectionTitleQuestions{
+    margin-top: 10vh;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(20px + 35 * (100vw / 1440));
+    line-height: calc(20px + 35 * (100vw / 1440));
+}
+
+.detailsTitleInterview{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(25px + 25 * (100vw / 1440));
+    line-height: calc(25px + 25 * (100vw / 1440));
+    color: black;
+}
+
+.interviews{
+    background-color: black;
+    height: 100%;
+    padding-bottom:118px;
+}
+
+.interviewRow{
+    margin-top: 10vh;
+}
+
+.interview-videoBlock{
+    position: relative;
+    width: 847px;
+    height: 100%;
+    margin-top:3vh;
+
+}
+
+.interview-video{
+    width: 100%;
+    height: 100%;
+}
+
+.studentPhoto{
+margin:0 auto;
+width: 150px;
+height: 150px;
+}
+
+.studentName{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 5%;
+}
+
+/* Слайдер */
+
+.cardDir{
+    margin-top: 10vh;
+    padding: 30px 30px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    height: 80%;
+    max-height:700px;
+    min-height:400px;
+
+}
+
+.cardTextDir{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    max-height:131px;
+    min-height:131px;
+    color: black;
+}
+
+.cardProfileDir{
+    margin-bottom: 0px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    max-height:92px;
+    min-height:100px;
+
+    color: #A2A2A2;
+
+}
+
+.cardButtonDir{
+    max-width: 200px;
+    margin-bottom: 13px;
+    padding: 13px ;
+    background-color: black;
+    border: 1px solid #FFFFFF;
+}
+
+.CardButtonTextDir{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+ }
+
+.slider{
+    position: relative;
+    display: none;
+}
+
+.slider .slick-arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    visibility: hidden;
+}
+
+.slider .slick-dots{
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0px;
+
+}
+
+.slider .slick-dots li{
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.slider .slick-dots button{
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.slider .slick-dots li.slick-active button{
+    background-color: transparent;
+    border: 1px solid black;
+}
+.slick-slider{
+
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{
+
+}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{
+
+}
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+}
+
+/*questionsToStudents section end*/
+
+
+
+@media all and (max-width: 1440px) {
+    .intro {
+        height: 100vh;
+    }
+
+    .introContainer{
+        height: 100vh;
+
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .intro {
+        height: 100vh;
+    }
+
+    .introContainer{
+        height: 100vh;
+
+    }
+    .studentPhoto{
+        width: 140px;
+        height: 140px;
+    }
+
+}
+
+
+@media all and (max-width: 700px) {
+    .intro {
+        height: 100%;
+    }
+
+    .introMainText{
+        margin: 0 auto;
+        margin-top: 5vh;
+    }
+
+    .introSecondaryText{
+        margin: 0 auto;
+        margin-top: 5vh;
+    }
+
+    .mainLogo{
+
+    }
+
+    .mainButton{
+        margin: 0 auto;
+        margin-top: 5vh;
+    }
+
+    .introContainer{
+        height: 100%;
+        padding-bottom: 20px;
+    }
+
+    .interviewRow{
+        display: none;
+    }
+
+    .slider{
+        display: block;
+    }
+
+    .cardDir{
+        height: 100%;
+        margin: 0 auto;
+    }
+    .detailsTitleInterview{
+        font-size: calc(25px + 15 * (100vw / 1440));
+        line-height: calc(25px + 15 * (100vw / 1440));
+    }
+    .studentPhoto{
+        width: 120px;
+        height: 120px;
+    }
+    .studentName{
+       padding-top: 10px;
+    }
+}
+/*footer*/
+
+.footer{
+    padding-top: 2vh;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-bottom: 2vh;
+}
+
+.footerContainer{
+    height: 100%;
+
+}
+
+.footerText{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+
+.footerIconsRow{
+    margin-top: 2vh;
+
+}
+
+.footerIcon{
+
+    max-width: 50px;
+    max-height: 50px;
+}
+
+
+.socialMediaBlock{
+    margin: 5%;
+    text-align: center;
+}
+
+.icon{
+    display: inline-block;
+
+
+}
+
+
+
+.icon.notFirst{
+    margin-left: 1%;
+}
+
+/*footer end*/
