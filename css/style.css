@@ -683,3 +683,24 @@ details > summary {
         max-width:400px;
     }
 }
+@media all and (max-width: 400px)
+{
+  .introContainer
+    {
+        max-width:366px;
+    }
+
+  .directionsContainer
+    {
+        max-width:366px;
+    }
+
+    .anotherQuestionsContainer
+    {
+        max-width:366px;
+    }
+}
+
+
+
+}
