@@ -662,6 +662,19 @@ details > summary {
         height: 100%;
         width: 80%;
         margin: 0 auto;
+        max-height:420px;
+        min-height:420px;
+    }
+    .cardProfile{
+
+        font-size:18px;
+    }
+    .cardText{
+        font-size:21px;
+    }
+
+    .cardButton{
+    margin-top:10px;
     }
 
     .anotherQuestionsText{
