@@ -141,6 +141,16 @@ button {
     color: #A2A2A2;
 }
 
+.introSubPagesThirdText{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(25px + 10  * (100vw / 1440));
+    line-height: calc(20px + 10 * (100vw / 1440));
+    margin-top: 10vh;
+    color: #A2A2A2;
+}
+
 /*intro SubPages section end*/
 
 /*DetailsSubPages*/
@@ -573,4 +583,12 @@ height: 150px;
     margin-left: 1%;
 }
 
+
+@media all and (max-width: 400px)
+{
+  .cardDir
+  {
+  max-width:300px;
+  }
+}
 /*footer end*/
