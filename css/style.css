@@ -618,8 +618,34 @@ details > summary {
 
 }
 
+@media all and (max-width: 1999px){
 
-@media all and (max-width: 700px) {
+    .btn{
+      margin-top:40px;
+
+    }
+
+    .mainLogo{
+     width: 339px;
+     margin: 0 auto;
+    }
+
+
+    .card{
+    max-height:500px;
+    }
+    .cardProfile{
+        font-size:16px;
+    }
+
+    .introSecondaryText{
+        margin: 10px 0px 0px 10px;
+    }
+
+
+}
+
+@media all and (max-width: 575px) {
     .intro {
         height: 100%;
     }
@@ -695,6 +721,12 @@ details > summary {
     {
         max-width:400px;
     }
+}
+@media all and (max-width: 400px)
+{
+
+
+}
 }
 @media all and (max-width: 400px)
 {
