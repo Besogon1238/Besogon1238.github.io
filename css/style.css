@@ -606,17 +606,6 @@ details > summary {
     }
 }
 
-@media all and (max-width: 1024px) {
-    .intro {
-        height: 100vh;
-    }
-
-    .introContainer{
-        height: 100vh;
-
-    }
-
-}
 
 @media all and (max-width: 1999px){
 
@@ -642,6 +631,23 @@ details > summary {
         margin: 10px 0px 0px 10px;
     }
 
+
+}
+
+@media all and (max-width: 1024px) {
+    .intro {
+        height: 100vh;
+    }
+
+    .introContainer{
+        height: 100vh;
+
+    }
+
+    .btn{
+      margin-top:0px;
+
+    }
 
 }
 
