@@ -187,8 +187,8 @@ button {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: calc(10px + 15 * (100vw / 1440));
-    line-height: calc(10px + 15 * (100vw / 1440));
+    font-size: calc(14px + 15 * (100vw / 1440));
+    line-height: calc(14px + 15 * (100vw / 1440));
 
     color: #FFFFFF;
 }
@@ -226,8 +226,8 @@ button {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
-    font-size: calc(10px + 15 * (100vw / 1440));
-    line-height: calc(10px + 15 * (100vw / 1440));
+    font-size: calc(14px + 15 * (100vw / 1440));
+    line-height: calc(14px + 15 * (100vw / 1440));
     margin-left: 1%;
     color: #FFFFFF;
     padding-left: 4vw;
