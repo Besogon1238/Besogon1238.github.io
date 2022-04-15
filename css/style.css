@@ -531,6 +531,7 @@ details > summary {
     padding-top: 2vh;
     width: 100%;
     background-color: black;
+    padding: 0 3% 0 3%;
 
 }
 
@@ -548,6 +549,7 @@ details > summary {
     line-height: 29px;
     text-align: center;
     color: #000000;
+    padding-top:10px;
 }
 
 .footerIconsRow{
@@ -631,7 +633,7 @@ details > summary {
     }
 
     .introSecondaryText{
-        margin: 10px 0px 0px 10px;
+        margin: 10px 0px 0px 0px;
     }
 
 
@@ -685,9 +687,14 @@ details > summary {
 
     }
 
+    .btn
+    {
+        margin-top:2vh;
+    }
+
     .mainButton{
         margin: 0 auto;
-        margin-top: 5vh;
+        margin-top: 10vh;
     }
 
 

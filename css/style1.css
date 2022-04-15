@@ -227,7 +227,7 @@ button {
     font-style: normal;
     font-weight: 300;
     font-size: calc(13px + 15 * (100vw / 1440));
-    line-height: calc(13px + 15 * (100vw / 1440));
+    line-height: calc(14px + 17 * (100vw / 1440));
     margin-left: 1%;
     color: #FFFFFF;
     padding-left: 4vw;
@@ -248,6 +248,15 @@ button {
 .interview{
     height: 100%;
     background-color: black;
+}
+.containerInterviews{
+    height: 100%;
+    background-color: black;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 
 .interviewBlock{
@@ -302,9 +311,9 @@ button {
 }
 
 .studentPhoto{
-margin:0 auto;
-width: 150px;
-height: 150px;
+    margin:0 auto;
+    width: 150px;
+    height: 150px;
 }
 
 .studentName{
@@ -327,7 +336,7 @@ height: 150px;
     background-color: white;
     border: 1px solid black;
     border-radius: 5px;
-    width: 100%;
+    width: 95%;
     height: 80%;
     max-height:700px;
     min-height:400px;
@@ -438,6 +447,72 @@ height: 150px;
 
 /*questionsToStudents section end*/
 
+/*footer*/
+
+.footer{
+    border-top:1px solid black;
+    width: 100%;
+    background-color: black;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+}
+
+.footerContainer{
+    height: 100%;
+    background-color: white;
+
+}
+
+.footerText{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+
+.footerIconsRow{
+    margin-top: 2vh;
+
+}
+
+.footerIcon{
+
+    max-width: 50px;
+    max-height: 50px;
+}
+.footerContainer{
+    background-color:black;
+    height: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.socialMediaBlock{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right:5%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.icon{
+    display: inline-block;
+
+
+}
+
+
+
+.icon.notFirst{
+    margin-left: 1%;
+}
 
 
 @media all and (max-width: 1440px) {
@@ -529,59 +604,11 @@ height: 150px;
     .studentName{
        padding-top: 10px;
     }
-}
-/*footer*/
-
-.footer{
-    padding-top: 2vh;
-    width: 100%;
-    background-color: #FFFFFF;
-    padding-bottom: 2vh;
+    .footerContainer{
+     background-color:white;
+    }
 }
 
-.footerContainer{
-    height: 100%;
-
-}
-
-.footerText{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 29px;
-    text-align: center;
-    color: #000000;
-}
-
-.footerIconsRow{
-    margin-top: 2vh;
-
-}
-
-.footerIcon{
-
-    max-width: 50px;
-    max-height: 50px;
-}
-
-
-.socialMediaBlock{
-    margin: 5%;
-    text-align: center;
-}
-
-.icon{
-    display: inline-block;
-
-
-}
-
-
-
-.icon.notFirst{
-    margin-left: 1%;
-}
 
 
 @media all and (max-width: 400px)
