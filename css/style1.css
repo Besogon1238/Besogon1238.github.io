@@ -66,10 +66,11 @@ button {
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
-    algin-items: center;
+    align-items: center;
     position: relative;
     padding-top: 1%;
     padding-bottom: 1%;
+    min-height:40px;
 
 }
 
@@ -102,8 +103,8 @@ button {
     font-style: normal;
     font-weight: 500;
 
-    font-size: calc(25px + 23 * (100vw / 1440));
-    line-height: calc(25px + 23 * (100vw / 1440));
+    font-size: calc(30px + 23 * (100vw / 1440));
+    line-height: calc(30px + 23 * (100vw / 1440));
     text-align: center;
     color: #000000;
     vertical-align: middle;
@@ -493,6 +494,15 @@ button {
     margin-left: auto;
 }
 
+.footerBlock{
+    padding-top: 3vh;
+    padding-left:3%;
+    padding-right:3%;
+    height: 100%;
+    background-color: #FFFFFF;
+    padding-bottom: 3vh;
+}
+
 
 .socialMediaBlock{
     margin-top: 5%;
@@ -607,6 +617,11 @@ button {
     .footerContainer{
      background-color:white;
     }
+    .arrowBack{
+      max-width:32px;
+      max-height:32px;
+    }
+
 }
 
 
