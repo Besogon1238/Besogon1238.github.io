@@ -179,8 +179,8 @@ button {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: calc(25px + 25 * (100vw / 1440));
-    line-height: calc(25px + 25 * (100vw / 1440));
+    font-size: calc(20px + 25 * (100vw / 1440));
+    line-height: calc(20px + 25 * (100vw / 1440));
     color: #FFFFFF;
 }
 
@@ -227,8 +227,8 @@ button {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
-    font-size: calc(13px + 15 * (100vw / 1440));
-    line-height: calc(14px + 17 * (100vw / 1440));
+    font-size: calc(14px + 15 * (100vw / 1440));
+    line-height: calc(16px + 17 * (100vw / 1440));
     margin-left: 1%;
     color: #FFFFFF;
     padding-left: 4vw;
@@ -554,6 +554,10 @@ button {
 
 
 @media all and (max-width: 700px) {
+    .sectionTitle{
+      text-align:center;
+    }
+
     .intro {
         height: 100%;
     }
