@@ -311,8 +311,6 @@ button {
     position: relative;
     width: 847px;
     height: 100%;
-    margin-top:3vh;
-
 }
 
 .interview-video{
@@ -592,6 +590,10 @@ button {
     .introContainer{
         height: 100%;
         padding-bottom: 20px;
+    }
+
+    .interview-videoBlock{
+        margin-top:3vh;
     }
 
     .interviewRow{
