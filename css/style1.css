@@ -466,6 +466,7 @@ button {
 }
 
 .footerText{
+    padding-top:10px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -495,21 +496,19 @@ button {
 }
 
 .footerBlock{
-    padding-top: 3vh;
     padding-left:3%;
     padding-right:3%;
     height: 100%;
     background-color: #FFFFFF;
-    padding-bottom: 3vh;
+    padding-bottom: 3%;
 }
 
 
 .socialMediaBlock{
-    margin-top: 5%;
+    margin-top: 3%;
     margin-left: 5%;
     margin-right:5%;
     text-align: center;
-    padding-bottom: 2%;
 }
 
 .icon{
