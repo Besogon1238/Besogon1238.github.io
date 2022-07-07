@@ -440,7 +440,7 @@ details > summary {
     font-style: normal;
     font-weight: 400;
     font-size: calc(13px + 16 * (100vw / 1440));
-    line-height: calc(13    px + 16 * (100vw / 1440));
+    line-height: calc(13px + 16 * (100vw / 1440));
     text-align: left;
     position: relative;
     cursor: pointer;
