@@ -335,7 +335,7 @@ height: 40px;
 }
 
 .list{
-    padding-left:25px;
+    padding-left:30px;
 }
 
 /*faq styles end*/
@@ -445,6 +445,14 @@ height: 40px;
 
     .faq_item{
 
+    }
+
+}
+
+@media all and (max-width: 600px){
+
+    .faq{
+        padding: 5% 3% 5% 3%;
     }
 
     .footerContent{
