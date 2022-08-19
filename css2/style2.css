@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html
+{
+    overflow-x: hidden;
+}
+
+body
+{
+    overflow-x: hidden;
+}
+
+a{
+    color: #000 !important;
+    text-decoration: none
+}
+
+.sectionTitle{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(25px + 15 * (100vw / 1440));
+    line-height: calc(25px + 55 * (100vw / 1440));
+    color: #000000;
+    text-align: center;
+}
+
+/*skrollbar*/
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: none;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #2F65B9;
+    border-radius: 10px;
+    height: 40px;
+}
+
+/*intro style begin*/
+
+.introContainer{
+    padding: 5%;
+}
+.intro{
+    padding: 3vh;
+    display: grid;
+    grid-template-areas:
+
+    'DirName DirName'
+    'profile department';
+    grid-gap:20px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.mainLogo{
+    display:grid;
+    width: 100%;
+    height: 10vh;
+    grid-area: mainLogo;
+    justify-content: center;
+    padding-bottom: 2vh;
+}
+
+.mainLogoMobile{
+    display:none;
+}
+.Logo{
+    width: 100%;
+}
+
+.DirName{
+    height: 15vh;
+    grid-area: DirName;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: calc(20px + 5 * (100vw / 1440));
+    line-height: 33px;
+    text-align: center;
+
+}
+
+.profile{
+    height: 10vh;
+    grid-area: profile;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(20px + 2 * (100vw / 1440));
+    line-height: 33px;
+    text-align: center;
+}
+
+.department{
+    height: 10vh;
+    grid-area: department;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(20px + 2 * (100vw / 1440));
+    line-height: 33px;
+    text-align: center;
+}
+
+/*About style begin*/
+
+.detailsSubPages{
+
+    height: 100%;
+    background-color: white;
+    padding: 5%;
+}
+
+.detailCon{
+    background-color: white;
+    height: 100%;
+    padding: 0 3% 0 3%;
+
+}
+
+.detailMain{
+    margin-top: 5vh;
+
+}
+
+.detailsTitle{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(20px + 15 * (100vw / 1440));
+    line-height: 33px;
+    text-align: center;
+}
+
+.detailsTitleBlack{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(20px + 25 * (100vw / 1440));
+    line-height: calc(20px + 25 * (100vw / 1440));
+    color: black;
+}
+
+.rowTitle{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: calc(14px + 15 * (100vw / 1440));
+    line-height: calc(16px + 17 * (100vw / 1440));
+    text-align: center;
+
+    color: black;
+}
+
+.verticalLineBlock{
+    justify-content: center;
+
+}
+
+.circle{
+    background:black;
+    margin:0 auto;
+    border-radius:50%;
+    width: calc(13px + 15 * (100vw / 1440));
+    height: calc(13px + 15 * (100vw / 1440));
+}
+
+.verticalLine{
+    position:relative;
+    height:100%;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+.lineBlock{
+    align-items: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin:auto;
+}
+
+.rowBody{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(14px + 15 * (100vw / 1440));
+    line-height: calc(16px + 17 * (100vw / 1440));
+    margin-left: 1%;
+    color: black;
+    padding-left: 4vw;
+    padding-bottom: 4vh;
+}
+
+.noLine{
+    border: none;
+}
