@@ -137,7 +137,7 @@ a{
 .detailCon{
     background-color: white;
     height: 100%;
-    padding: 0 3% 0 3%;
+    padding: 0 5% 0 1%;
 
 }
 
@@ -516,6 +516,10 @@ a{
 
     .interview-videoBlocks{
 
+    }
+
+    .detailsCon{
+        padding: 7px;
     }
 }
 
