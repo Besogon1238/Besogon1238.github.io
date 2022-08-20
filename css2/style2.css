@@ -47,6 +47,7 @@ a{
 
 .introContainer{
     padding: 5%;
+    height:60vh;
 }
 .intro{
     padding: 3vh;
@@ -167,7 +168,7 @@ a{
     font-family: 'Nunito';
     font-style: normal;
     font-weight: 500;
-    font-size: calc(14px + 15 * (100vw / 1440));
+    font-size: calc(14px + 13 * (100vw / 1440));
     line-height: calc(16px + 17 * (100vw / 1440));
     text-align: center;
 
@@ -223,6 +224,7 @@ a{
 
 .interviewContainer{
     padding:5%;
+
 }
 
 
@@ -341,6 +343,7 @@ a{
     line-height: 49px;
     text-align: center;
     color: #FFFFFF;
+    margin:0;
 }
 
 .contactWithUs{
@@ -387,3 +390,121 @@ a{
 /*footer style end*/
 
 
+@media all and (max-width: 700px) {
+
+    .introContainer{
+        height:50vh;
+    }
+
+    .intro{
+        grid-template-areas:
+        'DirName'
+        'profile';
+
+        grid-gap:20px;
+        grid-template-columns: none;
+
+    }
+
+    .department{
+        display: none;
+    }
+
+    .detailsSubPages{
+        padding:0;
+    }
+
+    .photo{
+        height: 100px;
+        width: 100px;
+    }
+
+    .interviews{
+        display: none;
+    }
+
+    .slider{
+        display: block;
+        position: relative;
+    }
+
+    .card {
+        margin: 0 auto;
+        box-sizing: border-box;
+        width: 360px;
+        height: 400px;
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        border-radius: 20px;
+        padding: 30px;
+        min-height:400px;
+
+        display: grid;
+        grid-template-areas:
+        'studentphoto studentname'
+        'video video';
+
+        grid-gap:10px;
+        grid-template-columns: none;
+    }
+
+    .studentPhoto{
+        grid-area: studentphoto;
+    }
+    
+    .studentName{
+        grid-area: studentname;
+        height: 100px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: calc(14px + 20 * (100vw / 1440));
+        line-height: calc(14px + 20 * (100vw / 1440));
+        text-align: justify-all;
+    }
+    }
+
+    .interview-videoBlocks{
+        grid-area: video;
+    }
+
+    .photo{
+        height: 150px;
+        width: 150px;
+    }
+
+    .footerContent{
+        grid-template-rows: 100%;
+        grid-template-columns: none;
+        justify-content: center;
+    }
+
+    .contactWithUs{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 55px;
+        color: #FFFFFF;
+    }
+
+    .footerText{
+
+        margin-left: 0%;
+    }
+
+    .contacts{
+        margin:0;
+        padding:0;
+    }
+
+    .qr{
+        display:none;
+    }
+}
+
+@media all and (max-width: 400px) {
+
+    .card{
+        max-width: 310px;
+    }
+}
