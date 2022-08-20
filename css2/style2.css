@@ -218,3 +218,172 @@ a{
 .noLine{
     border: none;
 }
+
+/*interview start*/
+
+.interviewContainer{
+    padding:5%;
+}
+
+
+.interviews{
+    display:grid;
+    grid-template-areas:
+
+    'studentphoto interview interview interview interview'
+    'studentphoto interview interview interview interview';
+    grid-gap:20px;
+
+
+ }
+
+.notFirstInterview{
+    margin-top: 10vh;
+}
+
+.photo{
+    height: 150px;
+    weight: 150px;
+}
+
+.studentPhoto{
+    grid-area: studentphoto;
+
+}
+
+.studentName{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: calc(14px + 10 * (100vw / 1440));
+    line-height: calc(14px + 15 * (100vw / 1440));
+}
+
+.interview-videoBlocks{
+    grid-area: interview;
+}
+
+
+
+/*slider-interviews start*/
+
+.slider{
+    position: relative;
+    display: none;
+}
+
+.slider .slick-arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    visibility: hidden;
+}
+
+.slider .slick-dots{
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0px;
+
+}
+
+.slider .slick-dots li{
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.slider .slick-dots button{
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.slider .slick-dots li.slick-active button{
+    background-color: black;
+    border: 0.5px solid black;
+}
+.slick-slider{
+
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{
+
+}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{
+
+}
+/* Ограничивающая оболочка */
+.slick-list {
+    overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+}
+
+/*slider-directions end*/
+
+/*footer style begin*/
+.footer{
+    padding: 5%;
+    background: #2B2B2B;
+}
+
+.footerHeader{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contactWithUs{
+    display: none;
+}
+
+.footerContent{
+    display: grid;
+    grid-template-areas:
+    "contacts qr";
+    grid-template-rows: 100%;
+    grid-template-columns: 5fr 5fr;
+}
+
+.contacts{
+    display: block;
+    list-style: none;
+    width: 100%;
+    grid-area: contacts;
+
+
+}
+
+.footerText{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
+    margin-left: 2%;
+    color: #FFFFFF;
+}
+
+.footerIcon{
+    max-height: 26px;
+    max-width: 26px;
+}
+
+.qr{
+    margin: auto auto;
+
+    grid-area: qr;
+}
+/*footer style end*/
+
+
