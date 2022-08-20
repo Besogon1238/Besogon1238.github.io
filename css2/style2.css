@@ -461,7 +461,6 @@ a{
         line-height: calc(14px + 20 * (100vw / 1440));
         text-align: justify-all;
     }
-    }
 
     .interview-videoBlocks{
         grid-area: video;
@@ -505,6 +504,16 @@ a{
 @media all and (max-width: 400px) {
 
     .card{
-        max-width: 310px;
+        max-width: 285px;
+        align-items: center;
+    }
+
+    .photo{
+        height: 130px;
+        width: 130px;
+    }
+
+    .interview-videoBlocks{
+
     }
 }
