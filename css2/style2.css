@@ -506,6 +506,7 @@ a{
     .card{
         max-width: 285px;
         align-items: center;
+        padding:20px;
     }
 
     .photo{
@@ -516,4 +517,17 @@ a{
     .interview-videoBlocks{
 
     }
+}
+
+@media all and (max-width: 300px) {
+    .card{
+        max-width: 250px;
+        align-items: center;
+    }
+
+    .photo{
+        height: 100px;
+        width: 100px;
+    }
+
 }
