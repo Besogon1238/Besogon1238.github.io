@@ -253,6 +253,12 @@ a{
 
 }
 
+.soonImg{
+    max-width: 1071px;
+    max-height: 602px;
+
+}
+
 .studentName{
     font-family: 'Nunito';
     font-style: normal;
@@ -263,6 +269,10 @@ a{
 
 .interview-videoBlocks{
     grid-area: interview;
+}
+
+.emptyInterview{
+    padding-left: 250px;
 }
 
 
@@ -464,6 +474,10 @@ a{
 
     .interview-videoBlocks{
         grid-area: video;
+    }
+
+    .emptyInterview{
+        display: none;
     }
 
     .photo{

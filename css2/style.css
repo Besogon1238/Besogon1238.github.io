@@ -6,6 +6,7 @@
 html
 {
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body
@@ -26,6 +27,7 @@ a{
     line-height: calc(25px + 55 * (100vw / 1440));
     color: #000000;
     text-align: center;
+    height: 8vh;
 }
 
 /*skrollbar*/
@@ -87,7 +89,7 @@ height: 40px;
 .directions{
     padding: 5%;
     padding-top: 0%;
-    height: 100vh;
+    height: 90vh;
     display: grid;
 
     grid-template-rows: 1fr 3fr 3fr 3fr;
