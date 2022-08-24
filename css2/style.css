@@ -27,7 +27,6 @@ a{
     line-height: calc(25px + 55 * (100vw / 1440));
     color: #000000;
     text-align: center;
-    height: 8vh;
 }
 
 /*skrollbar*/
@@ -89,7 +88,7 @@ height: 40px;
 .directions{
     padding: 5%;
     padding-top: 0%;
-    height: 90vh;
+    
     display: grid;
 
     grid-template-rows: 1fr 3fr 3fr 3fr;
@@ -292,7 +291,7 @@ height: 40px;
     text-transform: uppercase;
     letter-spacing: 2px;
     position:relative;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 5px 10px 10px;
     cursor: pointer;
 
 }
@@ -304,7 +303,7 @@ height: 40px;
     background-color:black;
     position:absolute;
     top: 17px;
-    margin-left: 5px;
+    margin: 0 auto;
 }
 .faq_title:before{
     transform: rotate(90deg);
@@ -326,7 +325,7 @@ height: 40px;
 
 
 .faq_text{
-    padding: 10px 0px 0px 0px;
+    padding: 10px;
     display:none;
     font-family: 'Nunito';
     font-style: normal;
@@ -478,6 +477,11 @@ height: 40px;
         color: #FFFFFF;
     }
 
+    .footerHeader{
+        text-align: center;
+        font-size: 40px;
+    }
+
     .footerText{
 
         margin-left: 0%;
@@ -489,6 +493,23 @@ height: 40px;
 
     .qr{
         display:none;
+    }
+
+}
+
+@media all and (max-width: 600px){
+
+    .faq_title{
+        font-size: 12px;
+    }
+
+    .faq_text{
+
+        font-size: 15px;
+    }
+
+    .contacts{
+        padding-left: 0px;
     }
 
 }
@@ -650,8 +671,8 @@ height: 40px;
     .faq_text{
         padding: 10px 0px 0px 70px;
         font-weight: 400;
-        font-size: calc(45px + 5 * (100vw / 1440));
-        line-height: calc(35px + 20 * (100vw / 1440));
+        font-size: calc(50px + 5 * (100vw / 1440));
+        line-height: calc(40px + 20 * (100vw / 1440));
     }
 
     .faq_title:before,

@@ -53,7 +53,6 @@ a{
 
 .introContainer{
     padding: 5%;
-    height: 60vh;
 }
 
 .intro{
@@ -76,7 +75,6 @@ a{
     height: 10vh;
     grid-area: mainLogo;
     justify-content: center;
-    padding-bottom: 2vh;
 }
 
 .mainLogoMobile{
@@ -99,7 +97,7 @@ a{
     font-size: calc(20px + 15 * (100vw / 1440));
     line-height: 33px;
     text-align: center;
-    padding-top:50px;
+    padding-top:40px;
     padding-bottom: 10px;
 
 }
@@ -415,10 +413,10 @@ a{
 /*footer style end*/
 
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1050px) {
 
     .introContainer{
-        height:50vh;
+
     }
 
     .intro{
@@ -432,11 +430,11 @@ a{
     }
 
     .DirName{
-        padding-top: 30px;
+        padding-top: 20px;
     }
 
     .profile{
-        padding: 10px;
+        padding: 8px;
         font-size: 25px;
     }
 
@@ -546,7 +544,7 @@ a{
 
 
     .introContainer{
-        height: 65vh;
+
     }
 
     .profile{
@@ -588,7 +586,6 @@ a{
 
     .introContainer{
 
-        height:55vh;
     }
 
     .verticalLineBlock{
@@ -755,4 +752,11 @@ a{
         grid-area: qr;
     }
     /*footer style end*/
+}
+
+@media all and (min-width: 400px) and (max-width: 500px) {
+
+    .profile{
+        padding: 0px;
+    }
 }
