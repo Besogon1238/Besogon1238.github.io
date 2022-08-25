@@ -88,7 +88,7 @@ height: 40px;
 .directions{
     padding: 5%;
     padding-top: 0%;
-    
+
     display: grid;
 
     grid-template-rows: 1fr 3fr 3fr 3fr;
@@ -495,10 +495,6 @@ height: 40px;
         display:none;
     }
 
-}
-
-@media all and (max-width: 600px){
-
     .faq_title{
         font-size: 12px;
     }
@@ -510,6 +506,14 @@ height: 40px;
 
     .contacts{
         padding-left: 0px;
+    }
+
+}
+
+@media all and (max-width: 400px){
+
+    .sectionTitle{
+        font-size: 26px;
     }
 
 }

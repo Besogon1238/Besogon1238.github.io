@@ -239,8 +239,9 @@ a{
 
 .interviews{
     display:grid;
-    grid-template-areas:
 
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas:
     'studentphoto interview interview interview interview'
     'studentphoto interview interview interview interview';
     grid-gap:20px;
@@ -611,7 +612,7 @@ a{
     }
 
     .profile{
-        padding-top: 0px;
+        padding-top: 3px;
         font-size: calc(12px + 15 * (100vw / 1440));
         line-height: 20px;
     }
@@ -758,5 +759,6 @@ a{
 
     .profile{
         padding: 0px;
+        height: auto;
     }
 }
